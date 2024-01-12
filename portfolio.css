@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.Portfolio-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.category {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.category-tab {
+    height: 40px;
+    width: 250px;
+    background: rgba(255, 255, 255, 0.02);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.category-tab a {
+    text-decoration: none;
+    color: white;
+}
+
+.category-tab:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.portfolio-content {
+    min-height: 800px;
+    width: 100%;
+    padding: 30px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blocks-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.blocks {
+    height: 300px;
+    width: 430px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.005);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.extra {
+    height: 30px;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.title {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumnail {
+    height: 220px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.view-btn {
+    height: 30px;
+    width: 60px;
+    background: #FF014F;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    position: absolute;
+}
+
+.view-btn a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.overlay {
+    background: black;
+    height: 220px;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+}
+
+.thumnail:hover .view-btn {
+    height: 30px;
+    width: 60px;
+    display: block;
+    background: #FF014F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.thumnail:hover .overlay {
+    opacity: .2;
+
+}

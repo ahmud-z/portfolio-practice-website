@@ -1,0 +1,93 @@
+.contact-content{
+width: 100%;
+padding: 50px 300px;
+display: flex;
+justify-content: center;
+gap: 25px;
+
+}
+
+.contact-box {
+    height: 550px;
+    width: 500px;
+    padding: 25px;
+    border: 1px solid rgba(255, 255, 255, .4);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-box {
+    height: 550px;
+    width: 500px;
+    padding: 25px;
+    border: 1px solid rgba(255, 255, 255, .4);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.row-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-input input{
+    height: 35px;
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+
+
+
+input{
+    background: none;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, .4);
+    border-radius: 3px;
+    padding: 0px 10px;
+    color: aliceblue;
+}
+
+input:focus{
+outline: none;
+}
+
+.mail-input input{
+    height: 35px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.msg-input textarea{
+    height: 200px;
+    width: 100%;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    resize: none;
+}
+textarea{
+    background: none;
+    border: none;
+    border: 1px solid rgba(255, 255, 255, .4);
+    border-radius: 3px;
+   
+    color: aliceblue;
+}
+
+button{
+    height: 35px;
+    width: 100%;
+    background: none;
+    border: none;
+    color: aliceblue;
+    border: 1px solid rgba(255, 255, 255, .4);
+}
